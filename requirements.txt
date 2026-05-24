@@ -1,0 +1,23 @@
+# ── Core async web framework ─────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+websockets==13.1
+
+# ── Screen capture ───────────────────────────────────────────────────────────
+dxcam==0.0.5
+
+# ── Computer vision ──────────────────────────────────────────────────────────
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+
+# ── Config / validation ──────────────────────────────────────────────────────
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# ── Windows APIs (window detection) ─────────────────────────────────────────
+pywin32==308
+
+# ── Testing ──────────────────────────────────────────────────────────────────
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx==0.28.0
