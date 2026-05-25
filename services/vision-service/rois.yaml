@@ -1,0 +1,102 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Valorant HUD Region-of-Interest definitions
+# All coordinates are for 1920×1080.  The ROI system scales them automatically
+# for other resolutions.
+#
+# Format per entry:
+#   name:
+#     x: left pixel  (inclusive)
+#     y: top pixel   (inclusive)
+#     w: width
+#     h: height
+#     enabled: true/false   (easy toggle without deleting)
+#     description: human-readable note
+# ─────────────────────────────────────────────────────────────────────────────
+
+health:
+  x: 795
+  y: 1020
+  w: 90
+  h: 35
+  enabled: true
+  description: "Player HP number — white text bottom-center-left"
+
+armor:
+  x: 895
+  y: 1020
+  w: 70
+  h: 35
+  enabled: true
+  description: "Armor/shield number — next to the shield icon"
+
+credits:
+  x: 1660
+  y: 1038
+  w: 130
+  h: 30
+  enabled: true
+  description: "Credit balance — bottom-right corner"
+
+ammo_current:
+  x: 1740
+  y: 1000
+  w: 80
+  h: 30
+  enabled: true
+  description: "Current magazine count — bottom-right"
+
+ammo_reserve:
+  x: 1835
+  y: 1005
+  w: 60
+  h: 25
+  enabled: true
+  description: "Reserve ammo count — smaller text after slash"
+
+match_timer:
+  x: 898
+  y: 18
+  w: 124
+  h: 32
+  enabled: true
+  description: "Round countdown timer — top-center HUD"
+
+killfeed:
+  x: 1480
+  y: 60
+  w: 440
+  h: 280
+  enabled: true
+  description: "Kill feed entries — top-right, scrolling"
+
+buy_phase_banner:
+  x: 650
+  y: 430
+  w: 620
+  h: 80
+  enabled: true
+  description: "BUY PHASE text in the center of the screen"
+
+round_result_banner:
+  x: 600
+  y: 370
+  w: 720
+  h: 120
+  enabled: true
+  description: "VICTORY / DEFEAT / DRAW banner — post-round center screen"
+
+spike_status:
+  x: 820
+  y: 55
+  w: 280
+  h: 40
+  enabled: true
+  description: "Spike planted / defused indicator near timer"
+
+weapon_name:
+  x: 1570
+  y: 1045
+  w: 260
+  h: 30
+  enabled: false
+  description: "Current weapon label — bottom-right (often icon-only, OCR unreliable)"
