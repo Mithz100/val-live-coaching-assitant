@@ -21,6 +21,12 @@ pywin32==308
 easyocr==1.7.2
 PyYAML==6.0.2
 
+# ── Event service ────────────────────────────────────────────────────────────
+sqlalchemy==2.0.36
+aiosqlite==0.20.0          # SQLite async driver (default, zero setup)
+asyncpg==0.30.0            # PostgreSQL async driver (production)
+redis==5.2.1               # Optional Redis client
+
 # ── Testing ──────────────────────────────────────────────────────────────────
 pytest==8.3.4
 pytest-asyncio==0.24.0
